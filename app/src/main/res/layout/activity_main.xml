@@ -6,37 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="228dp"
-        android:layout_height="77dp"
-        android:backgroundTint="#46529f"
-        android:text="Sign in with Facebook"
-        app:iconTint="#3F51B5"
-        app:rippleColor="#46529f"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="411dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="228dp"
-        android:layout_height="77dp"
-        android:backgroundTint="#f03016 "
-        android:text=" Sign with Google +"
-        app:iconTint="#f03016 "
-        app:rippleColor="#f03016 "
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="238dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="228dp"
-        android:layout_height="77dp"
-        android:backgroundTint="#00a2d2"
-        android:text="Sign in with Twitter"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="327dp" />
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="549dp"
@@ -44,5 +13,39 @@
         app:srcCompat="@drawable/ivana_cajina_asuyh__zx54_unsplash"
         tools:layout_editor_absoluteX="-24dp"
         tools:layout_editor_absoluteY="-12dp" />
+
+    <LinearLayout
+        android:layout_width="233dp"
+        android:layout_height="259dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="273dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="228dp"
+            android:layout_height="77dp"
+            android:backgroundTint="#00a2d2"
+            android:text="Sign in with Twitter" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="228dp"
+            android:layout_height="77dp"
+            android:backgroundTint="#f03016"
+            android:text=" Sign with Google +"
+            app:iconTint="#f03016 "
+            app:iconTintMode="add"
+            app:rippleColor="#f03016 " />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="228dp"
+            android:layout_height="77dp"
+            android:backgroundTint="#46529f"
+            android:text="Sign in with Facebook"
+            app:iconTint="#3F51B5"
+            app:rippleColor="#f03016 " />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
